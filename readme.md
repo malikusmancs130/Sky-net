@@ -21,3 +21,4 @@ dotnet ef migrations add InitialCreate -s API -p Infrastructure
 dotnet ef migrations remove -s API -p Infrastructure
 
 dotnet ef database update -s API -p Infrastructure
+dotnet ef database drop -p Infrastructure -s API
